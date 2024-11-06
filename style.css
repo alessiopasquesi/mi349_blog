@@ -37,3 +37,43 @@ header {
     color: white;
     padding: 10px;
 }
+
+.container {
+    display: flex;
+}
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+.sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+.float-image {
+    float: right;
+    margin: 10px;
+    width: 200px; /* Adjust as needed */
+}
+
+.caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+form p {
+    flex: 1 1 calc(50% - 10px); /* Adjust width to 50% */
+}
+
+form button {
+    flex: 1 1 100%; /* Make button full width */
+}
